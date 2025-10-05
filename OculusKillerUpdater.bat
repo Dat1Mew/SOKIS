@@ -1,0 +1,1 @@
+powershell -Command "Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0\Downloader.ps1"' -Verb RunAs"
